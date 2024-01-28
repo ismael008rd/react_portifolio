@@ -1,0 +1,24 @@
+ {
+    "id": 3,
+    "Tecnologia": "css",
+    "img": "imgs/imagehtml.png",
+    "texto": "JavaScript é uma linguagem de programação da web"
+  },
+  {
+    "id": 4,
+    "Tecnologia": "javScript",
+    "img": "imgs/imagehtml.png",
+    "texto": "JavaScript é uma linguagem de programação da web"
+  },
+  {
+    "id": 5,
+    "Tecnologia": "Git",
+    "img": "imgs/imagehtml.png",
+    "texto": "Sistema de vercionamento de código"
+  },
+  {
+    "id": 6,
+    "Tecnologia": "GitHub",
+    "img":"imgs/imagehtml.png",
+    "texto":"Git Hub é um sistema de vercionamento de código online"
+  }

@@ -1,0 +1,20 @@
+
+.tecnologias{
+    width: 100%;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card_tecnologia{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: green;
+    height: 280px;
+}
