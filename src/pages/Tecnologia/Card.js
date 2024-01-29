@@ -1,19 +1,21 @@
 
 
 
+function Card({ className,id, tecnologia,url, texto}) {
 
-function Card({ className,id, Tecnologia,img, texto}) {
+ 
 
 
   return (
     <div className={className} id={id}>
-      <h1>{Tecnologia}</h1>
+      <h1>{tecnologia}</h1>
       <div>
-        <img src={img} alt="tecnologia"/>
+        <img src={url} alt="tecnologia"/>
       </div>
       <h2>{texto}</h2>
 
-  
+     
+     
 
     </div>
   );

@@ -1,9 +1,12 @@
 import Style from "./tecnologi.module.css"
-import Json from "./tacnologia.json"
+
 import Card from "./Card"
+import InforTecn from "./imgs/ImagemT"
+
 
 
 function Tecnologias(){
+   
 
     console.log()
     return (
@@ -11,7 +14,9 @@ function Tecnologias(){
        <div className={Style.tecnologias}>
         
         {
-            Json.map((data)=>(
+
+            InforTecn.map((data)=>(
+               
                 <>
                 <Card key={data.id} id={data.id} {...data} className={Style.card_tecnologia}>
                     

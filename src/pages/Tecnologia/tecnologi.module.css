@@ -16,5 +16,10 @@
     align-items: center;
     width: 300px;
     background-color: green;
-    height: 280px;
+    padding: 5px;
+}
+
+.card_tecnologia img{
+    width: 140px;
+    height: 140px;
 }
