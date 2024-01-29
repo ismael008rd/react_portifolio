@@ -22,3 +22,15 @@
     "img":"imgs/imagehtml.png",
     "texto":"Git Hub é um sistema de vercionamento de código online"
   }
+
+  Git é um sistema de controle de versão distribuído que permite rastrear alterações no código fonte durante o desenvolvimento de software. Facilita o trabalho colaborativo, permitindo que vários desenvolvedores contribuam para um projeto simultaneamente, mantendo um histórico preciso de todas as alterações.
+
+  GitHub é uma plataforma de hospedagem de código fonte baseada em Git.Além de fornecer funcionalidades de controle de versão, o GitHub oferece recursos de colaboração, como rastreamento de problemas, solicitações de pull e integração contínua.
+
+  HTML é a linguagem de marcação padrão para criar páginas web. Utiliza tags para estruturar o conteúdo de uma página, como cabeçalhos, parágrafos, listas, links, imagens, formulários, entre outros.
+
+  React é uma biblioteca de JavaScript mantida pelo Facebook para criar interfaces de usuário (UI) interativas Utiliza um modelo de componente para construir hierarquias de UI reutilizáveis, facilitando o desenvolvimento de aplicativos web eficientes e escaláveis.
+
+  CSS é uma linguagem de estilo usada para controlar a apresentação visual de páginas web.Permite definir estilos como cores, fontes, espaçamento, layout e animações, separando assim o conteúdo HTML da sua aparência.
+
+  JavaScript é uma linguagem de programação de alto nível, interpretada pelos navegadores web para criar interatividade dinâmica nas páginas.Permite manipular elementos da página, responder a eventos, realizar requisições assíncronas e criar funcionalidades complexas do lado do cliente.

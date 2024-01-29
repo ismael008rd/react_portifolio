@@ -10,16 +10,29 @@
 }
 .card_tecnologia{
     display: flex;
+    padding: 1.2em;
     text-align: center;
+    font-size: 0.5em;
+    text-align: justify;
     flex-direction: column;
     justify-content: center;
+   
     align-items: center;
     width: 300px;
-    background-color: green;
+    height: 300px;
+    background-color: rgb(25, 62, 108);
     padding: 5px;
 }
 
 .card_tecnologia img{
     width: 140px;
     height: 140px;
+}
+
+.card_tecnologia h2{
+    color: white;
+}
+.card_tecnologia h1{
+    color: white;
+    text-transform: uppercase;
 }
