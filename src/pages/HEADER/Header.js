@@ -17,8 +17,9 @@ function Header(){
     
          <div className={Styles.titulo_porti}>
          
-          <div className={Styles.informPorti}><h1>Portfólio</h1>
-          <h2>Olá, meu nome é ismael tenho 22 anos e sou programador frontend junior tenho objetivo de entrar em uma grande empresa</h2></div>
+          <div className={Styles.informPorti}>
+           <h1>Portfólio</h1>
+          <h2>Olá, meu nome é Ismael e sou um programador frontend junior. Busco oportunidades para ingressar em uma grande empresa e contribuir com os meus conhecimentos e habilidades na área.</h2></div>
           <div className={Styles.image}>
              <img src={MinhaImagen}alt="imagens"/>
           </div>

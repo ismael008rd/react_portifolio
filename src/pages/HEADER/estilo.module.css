@@ -3,7 +3,7 @@
 }
 
 .header{
-    padding: 15px 0;
+    padding: 1.5em 1em;
     height: auto;
     background-image: url('https://i.pinimg.com/1200x/de/c4/ae/dec4ae50fc550bdb0478c1fc71f90cd0.jpg');
     display: flex;
@@ -62,12 +62,17 @@ a{
    margin-top: 10px;
     width: 100%;
    height: auto;
-    padding: 5px;
+    padding: 1.9em;
 }
 
 .titulo_porti h1, h2{
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+.titulo_porti h2{
+    font-size: 1em;
+    text-align: justify;
 }
 
 .informPorti{
