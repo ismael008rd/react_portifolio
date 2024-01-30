@@ -1,31 +1,30 @@
 import Style from "./tecnologi.module.css"
 
-import Card from "./Card"
-import InforTecn from "./imgs/ImagemT"
+
+import InforTecn from "./imgs/ImagemT.js"
 
 
 
 function Tecnologias(){
    
 
-    console.log()
     return (
         <>
        <div className={Style.tecnologias}>
         
         {
-
-            InforTecn.map((data)=>(
+           InforTecn.map((data)=>(
                
                 <>
-                <Card key={data.id} id={data.id} {...data} className={Style.card_tecnologia}>
-                    
-                </Card>
-               
+                   <div className={Style.card_tecnologia} id={data.id}>
+                    <h1>{data.tecnologia}</h1>
+                    <div>
+                        <img src={data.url} alt="tecnologia"/>
+                    </div>
+                    <h2>{data.texto}</h2>
+                   </div>
                 </>
-            )
-               
-            )
+             ) )
         }
 
        </div>

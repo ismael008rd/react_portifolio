@@ -7,6 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   
 
@@ -23,14 +25,11 @@ code {
     monospace;
 }
 
-section{
-  background-color: red;
-  
-}
+
 
 #root{
   display: flex;
-  padding: 0;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
