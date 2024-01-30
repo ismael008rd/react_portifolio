@@ -1,9 +1,9 @@
 .content{
-    background-color: red;
+    background-color: rgb(208, 91, 91);
 }
 
 .header{
-    padding: 10px;
+    padding: 15px 0;
     height: auto;
     background-image: url('https://i.pinimg.com/1200x/de/c4/ae/dec4ae50fc550bdb0478c1fc71f90cd0.jpg');
     display: flex;
@@ -16,21 +16,25 @@
 }
 
 .items{
-    color: rgb(187, 17, 17);
+    color:white;
     font-size: .8em;
     display: flex;
     justify-content: center;
     align-items: center;
+  
     text-transform: uppercase;
     text-align: center;
     width: 100px;
     height: 50px;
-    background-color: rgb(80, 211, 80);
-    border-radius: 20px;
-    transition: background-color .6s;
+    background-color: rgb(167, 6, 173);
+    border-radius: 10px;
+    transition: background-color .2s;
 }
+
+
 .links_infor{
     width: 100%;
+    text-decoration: none;
     height: 50px;
     padding: 15px;
     display: flex;
@@ -39,8 +43,14 @@
    
 }
 
+a{
+    text-decoration: none;
+}
+
 .items:hover{
-    background-color: aquamarine;
+    background-color: rgb(249, 127, 255);
+    color: black;
+    transform: skewX(1deg);
 }
 
 .titulo_porti {
@@ -56,13 +66,15 @@
 }
 
 .titulo_porti h1, h2{
-   color: rgb(184, 104, 104);
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 .informPorti{
     padding: 10px;
     width: 500px;
-    background-color: #ddd;
+    background-color:rgba(0,0,0,0.2);
+    
 }
 
 

@@ -10,7 +10,8 @@ function Header(){
           
           <Link to = "/watch"><div className={Styles.items}>projetos</div></Link>
          
-         <div className={Styles.items}>Formularios</div>
+         <Link to="/tecnologias"> <div className={Styles.items}>Tecnologias</div></Link>
+         
       
          </div>
     

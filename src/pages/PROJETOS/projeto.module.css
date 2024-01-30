@@ -1,10 +1,10 @@
 .projeto{
     width: 100%;
-    padding:1em 1em;
+    padding:2em 1em;
   
     margin: 0;
     height: auto;
-    background-color: rgb(233, 30, 30);
+    background-color: rgb(39, 26, 75);
 }
 
 .projeto h1{
@@ -25,10 +25,21 @@
 .card{
     width: 300px;
     padding: 10px;
+    transform: skew(-5deg);
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background-color: rgb(40, 71, 90);
     height: 300px;
     align-items: center;
     flex-direction: column;
+}
+
+.card a{
+    font-size: 1.3em;
+    color: rgb(194, 29, 175);
+}
+
+.description{
+    text-align: justify;
+    color: orange;
 }
