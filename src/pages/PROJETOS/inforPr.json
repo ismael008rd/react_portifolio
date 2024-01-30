@@ -14,7 +14,7 @@
     "id":2,
     "op":"IM",
     "name":"Calculadora Imc",
-    "description":"Para saber se o seu imc esta certo é ir aqui",
+    "description":"A Calculadora de IMC: avalie rapidamente sua saúde com altura e peso, verificando se está na faixa saudável.",
     "url":"https://ismael008rd.github.io/Imc_massa/"
 
 },
@@ -24,7 +24,7 @@
     "op":"TN",
     "name":"Site só para treinar",
     "description":"exemplo de um site comercial",
-    "url":"https://ismael008rd.github.io/advinhar_numero/"
+    "url":"https://ismael008rd.github.io/Treinando_grid/"
 
 },
     {    

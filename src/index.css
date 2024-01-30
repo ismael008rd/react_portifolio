@@ -30,6 +30,7 @@ section{
 
 #root{
   display: flex;
+  padding: 1em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
