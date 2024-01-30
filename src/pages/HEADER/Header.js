@@ -21,7 +21,8 @@ function Header(){
            <h1>Portfólio</h1>
           <h2>Olá, meu nome é Ismael e sou um programador frontend junior. Busco oportunidades para ingressar em uma grande empresa e contribuir com os meus conhecimentos e habilidades na área.</h2></div>
           <div className={Styles.image}>
-             <img src={MinhaImagen}alt="imagens"/>
+            <h1>IMG...</h1>
+             {/* <img src={MinhaImagen}alt="imagens"/> */}
           </div>
          </div>
          
