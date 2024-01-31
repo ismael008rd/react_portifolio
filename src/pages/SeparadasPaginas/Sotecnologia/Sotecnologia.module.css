@@ -1,0 +1,40 @@
+
+.header{
+    width: 100%;
+    display: flex;
+    padding-block: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 0, 255);
+}
+
+.links_infor{
+    width: 300px;
+    padding: 1.5em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    gap: 20px;
+}
+
+.items{
+    background-color: rgb(142, 54, 177);
+    border-radius: 1.5em;
+    color: white;
+    padding: .9em;
+}
+.items:hover{
+    background-color: rgb(172, 34, 156);
+    color: red;
+}
+
+.footer{
+    width: 100%;
+    align-items: center;
+    padding-block: 1em;
+    color: white;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(50, 16, 84);
+}
