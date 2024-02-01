@@ -18,7 +18,7 @@ function Soprojetos(){
       </header>
       <Projetos/>
       <footer className={Styles.footer}>
-           Tecnologias
+           Projetos
         </footer>
         </>
     )

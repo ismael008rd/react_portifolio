@@ -1,10 +1,40 @@
 
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom"
 import Styles from "./estilo.module.css"
-import MinhaImagen from './img/img_mavel.jpg'
+
 function Header(){
+
+ const headerRef = useRef(null);
+
+  const myObserve = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if(entry.isIntersecting){
+       entry.target.classList.add(Styles.show)
+       
+       console.log('entecedeu')
+      }else{
+        console.log('não entencedeu')
+        entry.target.classList.remove(Styles.show)
+      }
+    });
+  });
+
+  useEffect(() => {
+    
+    if (headerRef.current) {
+      myObserve.observe(headerRef.current);
+    }
+
+    return () => {
+      myObserve.disconnect();
+    };
+  }, [headerRef]);
+
+   
+
     return(
-        <header className={Styles.header}>
+        <header className={Styles.header} ref={headerRef}>
         <div className={Styles.links_infor}>
           <Link to="/"><div className={Styles.items}>Home</div></Link>
           
@@ -19,9 +49,9 @@ function Header(){
          
           <div className={Styles.informPorti}>
            <h1>Portfólio</h1>
-          <h2>Olá, meu nome é Ismael e sou um programador frontend junior. Busco oportunidades para ingressar em uma grande empresa e contribuir com os meus conhecimentos e habilidades na área.</h2></div>
+          <h2>Olá, meu nome é Ismael e sou programador "Front-end Júnior". </h2></div>
           <div className={Styles.image}>
-            <h1>IMG...</h1>
+            <h1>Img...</h1>
              {/* <img src={MinhaImagen}alt="imagens"/> */}
           </div>
          </div>

@@ -5,7 +5,7 @@
     padding-block: 1em;
     justify-content: center;
     align-items: center;
-    background-color: rgb(179, 0, 255);
+    background-color: rgb(89, 23, 120);
 }
 
 .links_infor{
@@ -23,10 +23,16 @@
     border-radius: 1.5em;
     color: white;
     padding: .9em;
+  
 }
 .items:hover{
     background-color: rgb(172, 34, 156);
     color: red;
+}
+.items:active{
+    border: 3px solid rgb(221, 80, 206);
+    
+    
 }
 
 .footer{
@@ -34,6 +40,7 @@
     align-items: center;
     padding-block: 1em;
     color: white;
+    text-transform: uppercase;
     justify-content: center;
     display: flex;
     background-color: rgb(50, 16, 84);
