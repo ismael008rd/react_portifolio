@@ -42,6 +42,14 @@
     "description":"Todo list organizando o dia",
     "url":"https://ismael008rd.github.io/todo_list_react_vit_deploy/"
 
+},
+    {    
+    "id":5,
+    "op":"CL",
+    "name":"Calculador calorica ",
+    "description":"Em desenvolvimento...",
+    "url":"https://ismael008rd.github.io/calculadora_de_calorias/"
+
 }
 
 
