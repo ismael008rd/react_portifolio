@@ -50,6 +50,14 @@
     "description":"Em desenvolvimento...",
     "url":"https://ismael008rd.github.io/calculadora_de_calorias/"
 
+},
+    {    
+    "id":6,
+    "op":"SR",
+    "name":"simulado_loj_roupas ",
+    "description":"clothing",
+    "url":"https://ismael008rd.github.io/calculadora_de_calorias/"
+
 }
 
 
