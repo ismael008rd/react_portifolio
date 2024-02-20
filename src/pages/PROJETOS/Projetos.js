@@ -3,7 +3,7 @@ import InforProjeto from "./inforPr.json";
 function Projetos() {
   return (
     <>
-      <div className={Style.projeto}>
+      <div className={Style.projeto} id="projetos">
         <div className={Style.cards}>
 
           {InforProjeto.map((data) => (
